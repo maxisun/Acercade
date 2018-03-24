@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">Acerca de</string>
+    <string name="max_alexander_espinal_ramirez">Max Alexander Espinal Ramirez</string>
+    <string name="ingeniero_en_sistemas">Ingeniero en Sistemas</string>
+    <string name="maxisun">maxisun</string>
+    <string name="maxespinal">\@MaxEspinal</string>
+    <string name="_00354615">00354615</string>
+    <string name="_7518_4043">7518-4043</string>
+    <string name="powered_by_tercer_mundismo">Powered by TERCER-MUNDISMO</string>
+    <string name="image_max_espinal">IMAGE Max Espinal</string>
+    <string name="image_twitter">IMAGE twitter</string>
+    <string name="image_github">IMAGE github</string>
+    <string name="image_gmail">IMAGE gmail</string>
+    <string name="image_telefono">IMAGE telefono</string>
+</resources>

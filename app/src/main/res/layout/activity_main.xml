@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.max00.acercade.MainActivity">
+
+    <ImageView
+        android:contentDescription="@string/image_max_espinal"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="16dp"
+        android:src="@drawable/test"/>
+    
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/max_alexander_espinal_ramirez"
+        android:textSize="20sp"
+        android:gravity="center"
+        android:layout_marginTop="16dp"/>
+    
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" 
+        android:text="@string/ingeniero_en_sistemas"
+        android:textSize="20sp"
+        android:layout_marginTop="8dp"
+        android:gravity="center"/>
+
+    <!-- Layout papa de las cuentas-->
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginTop="16dp">
+
+      <!-- Layout papa de las primeras 2 cuentas horizontales-->
+
+      <LinearLayout
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:orientation="horizontal"
+          android:layout_marginLeft="8dp"
+          android:layout_marginRight="8dp">
+
+          <!-- Layout papa de la cuenta de github-->
+
+          <LinearLayout
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:orientation="horizontal"
+              android:layout_weight="1">
+
+              <ImageView
+                  android:contentDescription="@string/image_github"
+                  android:src="@drawable/github"
+                  android:layout_width="50dp"
+                  android:layout_height="50dp" />
+
+              <TextView
+                  android:layout_width="match_parent"
+                  android:layout_height="match_parent"
+                  android:text="@string/maxisun"
+                  android:gravity="center"
+                  android:textSize="20sp"/>
+
+          </LinearLayout>
+
+          <!-- Layout papa de la cuenta de twitter-->
+          <LinearLayout
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:orientation="horizontal"
+              android:layout_weight="1">
+
+              <ImageView
+                  android:contentDescription="@string/image_twitter"
+                  android:layout_width="50dp"
+                  android:layout_height="50dp"
+                  android:src="@drawable/twitter" />
+
+              <TextView
+                  android:layout_width="match_parent"
+                  android:layout_height="match_parent"
+                  android:text="@string/maxespinal"
+                  android:gravity="center"
+                  android:textSize="20sp"/>
+
+          </LinearLayout>
+
+      </LinearLayout>
+
+      <!-- Layout papa de las cuentas segundas horizontalmente-->
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginLeft="8dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginRight="8dp">
+
+            <!-- Layout papa de la cuenta de correo-->
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_weight="1">
+
+                <ImageView
+                    android:contentDescription="@string/image_gmail"
+                    android:src="@drawable/gmail"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="@string/_00354615"
+                    android:gravity="center"
+                    android:textSize="20sp"/>
+
+            </LinearLayout>
+
+            <!-- Layout papa del telefono -->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_weight="1">
+
+                <ImageView
+                    android:contentDescription="@string/image_telefono"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:src="@drawable/telefono"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="@string/_7518_4043"
+                    android:gravity="center"
+                    android:textSize="20sp"/>
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+      </LinearLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/powered_by_tercer_mundismo"
+        android:textSize="20sp"
+        android:layout_marginTop="100dp"
+        android:gravity="center_horizontal"
+        android:layout_gravity="center_horizontal"/>
+
+    </LinearLayout>
+
+
