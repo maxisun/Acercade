@@ -9,7 +9,7 @@
 
     <ImageView
         android:contentDescription="@string/image_max_espinal"
-        android:layout_width="150dp"
+        android:layout_width="200dp"
         android:layout_height="150dp"
         android:layout_gravity="center_horizontal"
         android:layout_marginTop="16dp"
@@ -156,7 +156,7 @@
 
     <TextView
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+        android:layout_height="match_parent"
         android:text="@string/powered_by_tercer_mundismo"
         android:textSize="20sp"
         android:layout_marginTop="100dp"
