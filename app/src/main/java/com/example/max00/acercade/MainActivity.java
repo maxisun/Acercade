@@ -59,7 +59,7 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View v) {
 
-                intent_TEXT();
+                intent_TEXT(nombre,ocupacion,github);
             }
         });
 
@@ -68,9 +68,9 @@ public class MainActivity extends AppCompatActivity {
 
     }
 
-    public void intent_TEXT(){
+    public void intent_TEXT(TextView nombre,TextView ocupacion, TextView github){
 
-        final ArrayList<String> imageUris = new ArrayList<String>();
+        /*final ArrayList<String> imageUris = new ArrayList<String>();
         imageUris.add(nombre.getText().toString()); // Add your image URIs here
         imageUris.add(ocupacion.getText().toString());
 
@@ -78,15 +78,16 @@ public class MainActivity extends AppCompatActivity {
         shareIntent.setAction(Intent.ACTION_SEND_MULTIPLE);
         shareIntent.putExtra(Intent.EXTRA_TEXT, imageUris);
         shareIntent.setType("text/plain");
-        startActivity(Intent.createChooser(shareIntent, "Share text to.."));
+        startActivity(Intent.createChooser(shareIntent, "Share text to.."));*/
 
-        /*Intent shareIntent = new Intent();
+        Intent shareIntent = new Intent();
         shareIntent.setAction(Intent.ACTION_SEND_MULTIPLE);
-        shareIntent.putExtra(Intent.EXTRA_TEXT, nombre.getText().toString());
+        shareIntent.putExtra(Intent.EXTRA_SUBJECT, nombre.getText().toString());
         shareIntent.putExtra(Intent.EXTRA_TEXT, ocupacion.getText().toString());
-        //shareIntent.putExtra(Intent.EXTRA_STREAM, maxisun);
-        shareIntent.setType("image/*");
-        shareIntent.addFlags(Intent.FLAG_GRANT_READ_URI_PERMISSION);
+        shareIntent.putExtra(Intent.EXTRA_STREAM, github.getText().toString());
+        shareIntent.putExtra(Intent.EXTRA_STREAM, maxisun);
+        shareIntent.setType("text/plain");
+        //shareIntent.addFlags(Intent.FLAG_GRANT_READ_URI_PERMISSION);
         startActivity(Intent.createChooser(shareIntent, "Share images..."));
 
         /*Intent shareIntent = new Intent();
