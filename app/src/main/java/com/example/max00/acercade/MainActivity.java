@@ -40,7 +40,7 @@ public class MainActivity extends AppCompatActivity {
         share = findViewById(R.id.B_share);
         maxisun = Uri.parse("android.resource://res/drawable/telefono.png");
 
-        /*ArrayList<String> imageUris = new ArrayList<String>();
+        /*ArrayList<Uri> imageUris = new ArrayList<Uri>();
         imageUris.add(imageUri1); // Add your image URIs here
         imageUris.add(imageUri2);
 
