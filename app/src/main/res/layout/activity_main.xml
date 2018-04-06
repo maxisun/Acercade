@@ -8,6 +8,7 @@
     tools:context="com.example.max00.acercade.MainActivity">
 
     <ImageView
+        android:id="@+id/IV_maxisun"
         android:contentDescription="@string/image_max_espinal"
         android:layout_width="200dp"
         android:layout_height="150dp"
@@ -16,6 +17,7 @@
         android:src="@drawable/test"/>
     
     <TextView
+        android:id="@+id/TV_name"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="@string/max_alexander_espinal_ramirez"
@@ -24,6 +26,7 @@
         android:layout_marginTop="16dp"/>
     
     <TextView
+        android:id="@+id/TV_profesion"
         android:layout_width="match_parent"
         android:layout_height="wrap_content" 
         android:text="@string/ingeniero_en_sistemas"
@@ -63,6 +66,7 @@
                   android:layout_height="50dp" />
 
               <TextView
+                  android:id="@+id/TV_gituser"
                   android:layout_width="match_parent"
                   android:layout_height="match_parent"
                   android:text="@string/maxisun"
@@ -85,6 +89,7 @@
                   android:src="@drawable/twitter" />
 
               <TextView
+                  android:id="@+id/TV_twitteruser"
                   android:layout_width="match_parent"
                   android:layout_height="match_parent"
                   android:text="@string/maxespinal"
@@ -120,6 +125,7 @@
                     android:layout_height="50dp" />
 
                 <TextView
+                    android:id="@+id/TV_emailuser"
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
                     android:text="@string/_00354615"
@@ -142,6 +148,7 @@
                     android:src="@drawable/telefono"/>
 
                 <TextView
+                    android:id="@+id/TV_phone"
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
                     android:text="@string/_7518_4043"
@@ -154,12 +161,20 @@
 
       </LinearLayout>
 
+    <Button
+        android:id="@+id/B_share"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="30dp"
+        android:text="SHARE"/>
+
     <TextView
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:text="@string/powered_by_tercer_mundismo"
         android:textSize="20sp"
-        android:layout_marginTop="100dp"
+        android:layout_marginTop="10dp"
         android:gravity="center_horizontal"
         android:layout_gravity="center_horizontal"/>
 
